@@ -1,9 +1,10 @@
 import React from 'react';
 
-export default function About() {
+export default function Contact() {
   return (
-    <section className='section about-section'>
-      <h1 className='section-title'>about me</h1>
+    <section className='section contact-section'>
+      <h1 className='section-title'>contact us</h1>
+      <h3>Here goes your contact sheet</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
         repudiandae architecto qui adipisci in officiis, aperiam sequi atque

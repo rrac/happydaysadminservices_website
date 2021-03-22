@@ -1,22 +1,36 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import logo from '../logo.svg'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../favicon-16x16.png';
+
 export default function Navbar() {
   return (
     <nav className='navbar'>
       <div className='nav-center'>
         <Link to='/'>
-          <img src={logo} alt='cocktail db logo' className='logo' />
+          <img
+            src={logo}
+            alt='happy days admin services logo'
+            className='logo'
+          />
         </Link>
         <ul className='nav-links'>
           <li>
             <Link to='/'>home</Link>
           </li>
           <li>
-            <Link to='/about'>about</Link>
+            <Link to='/services'>services</Link>
+          </li>
+          <li>
+            <Link to='/benefits'>your benefits</Link>
+          </li>
+          <li>
+            <Link to='/about'>about me</Link>
+          </li>
+          <li>
+            <Link to='/contact'>contact</Link>
           </li>
         </ul>
       </div>
     </nav>
-  )
+  );
 }

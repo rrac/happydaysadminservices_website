@@ -1,9 +1,10 @@
 import React from 'react';
 
-export default function About() {
+export default function Services() {
   return (
-    <section className='section about-section'>
-      <h1 className='section-title'>about me</h1>
+    <section className='section services-section'>
+      <h1 className='section-title'>services</h1>
+      <h3>Here goes the content for Services</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
         repudiandae architecto qui adipisci in officiis, aperiam sequi atque

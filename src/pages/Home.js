@@ -1,11 +1,10 @@
-import React from 'react'
-import CocktailList from '../components/CocktailList'
-import SearchForm from '../components/SearchForm'
+import React from 'react';
+
 export default function Home() {
   return (
-    <main>
-      <SearchForm />
-      <CocktailList />
+    <main className='section about-section'>
+      <h1 className='about-section'>landing page</h1>
+      <h3>here goes your main page text</h3>
     </main>
-  )
+  );
 }
