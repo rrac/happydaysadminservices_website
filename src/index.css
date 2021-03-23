@@ -36,10 +36,11 @@ Global Styles
 }
 
 body {
-  font-family: -apple-system, Roboto, Oxygen, BlinkMacSystemFont, 'Segoe UI',
+  font-family: Roboto, -apple-system, Oxygen, BlinkMacSystemFont, 'Segoe UI',
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: var(--mainBlack);
   background: var(--mainBackground);
+  background-image: url('assets/hdas_background.jpg');
   line-height: 1.4;
   font-size: 1rem;
   font-weight: 300;
@@ -132,12 +133,12 @@ Navbar
 ======
 */
 .navbar {
-  background: var(--mainWhite);
+  /*background: var(--mainWhite);*/
   height: 5rem;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid var(--primaryColor);
-  box-shadow: var(--lightShadow);
+  /*border-bottom: 1px solid var(--primaryColor);
+  box-shadow: var(--lightShadow);*/
 }
 .nav-center {
   display: flex;

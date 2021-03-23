@@ -1,4 +1,5 @@
 import React from 'react';
+//import backgroundImage from '../assets/hdas_background.jpg';
 
 export default function Home() {
   return (
